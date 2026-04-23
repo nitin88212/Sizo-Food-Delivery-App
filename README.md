@@ -63,10 +63,38 @@ A full-stack Android food delivery application with Firebase backend and Razorpa
 
 ---
 
+
+## ☁️ Firebase Firestore (Real Backend)
+
+### 📦 Orders Collection
+Stores all user orders with real-time updates.
+
+Example:
+- orderId: test123
+- status: "Out for Delivery"
+
+### 📍 Delivery Location
+Stores latitude & longitude for delivery tracking.
+
+Example:
+- lat: 25.546
+- lng: 81.479
+
+### ⚡ Real-time Updates
+- Admin updates order status
+- User instantly sees updates in Order History
+
+📱 Screenshots
+<img width="1920" height="1080" alt="Screenshot (529)" src="https://github.com/user-attachments/assets/7813f101-4027-4af9-b9a3-a8346d093b3b" />
+<img width="1920" height="1080" alt="Screenshot (528)" src="https://github.com/user-attachments/assets/680ed549-3e98-489f-90f9-d0738119642d" />
+
+
+
+---
+
 ## 📦 Future Improvements
 
 - Live order tracking (Google Maps API)
-- Push notifications (Firebase FCM)
 - Recommendation system
 
 ---
@@ -74,4 +102,5 @@ A full-stack Android food delivery application with Firebase backend and Razorpa
 ## 📫 Contact
 
 Nitin Yadav  
++91 8874248693
 📧 nitin887424@gmail.com
