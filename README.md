@@ -1,68 +1,77 @@
 # 🍔 Food Delivery App (Zomato Clone)
 
-An Android-based food delivery application that simulates real-world food ordering experience with a clean UI and smooth navigation.
+A full-stack Android food delivery application with Firebase backend and Razorpay payment integration.
 
 ---
 
 ## 🚀 Features
 
-- 🍽️ Restaurant listing  
-- 📋 Menu browsing  
-- 🛒 Add to cart (if implemented)  
-- 🔍 Easy navigation between screens  
-- 📱 User-friendly interface  
+- 🔐 User Authentication (Email + Google Sign-In)
+- 🍽️ Restaurant Listing & Menu Browsing
+- 🛒 Cart System with dynamic pricing
+- 💳 Razorpay Payment Integration (Card, UPI, Wallet)
+- ☁️ Firebase Firestore (Real-time order storage)
+- 📦 Order History (fetched from Firestore)
+- 👤 User Profile
+- 🛠️ Admin Panel (Update order status live)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Kotlin  
-- Android Studio  
-- MVVM Architecture (if used)  
-- Firebase (if used)  
+- Kotlin
+- Android Studio
+- Firebase Authentication
+- Firebase Firestore (Realtime Database)
+- Razorpay Payment Gateway
+- MVVM Architecture
 
 ---
 
-## 📸 Screenshots
+## ⚡ Key Functional Flow
 
-(Add your app screenshots here)
-
-Example:
-![Home Screen](screenshots/home.png)  
-![Menu Screen](screenshots/menu.png)  
-
----
-
-## 💡 Project Overview
-
-This project is designed to replicate the workflow of real-world food delivery platforms like Zomato.  
-It focuses on **UI/UX design, smooth navigation, and user interaction**, providing a practical understanding of Android app development.
+1. User logs in via Firebase  
+2. Selects restaurant & adds items to cart  
+3. Proceeds to payment (Razorpay UI)  
+4. On successful payment → Order stored in Firestore  
+5. Order visible in **Order History (real-time)**  
+6. Admin updates status → reflected instantly  
 
 ---
 
-## 🎯 What I Learned
+## 📱 Screenshots
+<img width="576" height="1280" alt="Login" src="https://github.com/user-attachments/assets/4ad0c138-47db-428a-b04e-8b7191313a9c" />
+<img width="576" height="1280" alt="Home" src="https://github.com/user-attachments/assets/b69142d0-02f0-4a5f-a1c5-bfd2b1d5a15b" />
+<img width="576" height="1280" alt="MyProfile" src="https://github.com/user-attachments/assets/50031c92-b9c2-4f53-b007-deaedd0b0ffb" />
+<img width="576" height="1280" alt="Cart" src="https://github.com/user-attachments/assets/0fe9f352-3937-4797-893a-1f781f830be5" />
+<img width="576" height="1280" alt="Order" src="https://github.com/user-attachments/assets/5f876640-028e-4e76-8b7b-33ce5fcc6625" />
+<img width="576" height="1280" alt="Admin" src="https://github.com/user-attachments/assets/233b979d-dfaf-42e7-af60-889138b3324a" />
+<img width="576" height="1280" alt="Payment" src="https://github.com/user-attachments/assets/5af90f08-2657-4db5-905e-7ff26f43ee10" />
 
-- Android UI/UX design principles  
-- Activity & Fragment navigation  
-- Structuring apps using MVVM architecture  
-- Handling user interaction efficiently  
+
+
+
+
+---
+
+## 💡 What Makes This Project Strong
+
+- Real backend (Firebase Firestore)
+- Real payment flow (Razorpay)
+- Complete app lifecycle (Login → Order → Payment → Tracking)
+- Admin + User role system
 
 ---
 
 ## 📦 Future Improvements
 
-- 🔐 User authentication (Firebase Login)  
-- 💳 Payment integration  
-- 📍 Live order tracking  
-- 🧠 Recommendation system  
+- Live order tracking (Google Maps API)
+- Push notifications (Firebase FCM)
+- Recommendation system
 
 ---
 
 ## 📫 Contact
 
 Nitin Yadav  
-📧 nitin887424@gmail.com  
-
----
-
-⭐ If you like this project, feel free to star the repository!
+📧 nitin887424@gmail.com
