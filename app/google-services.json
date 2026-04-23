@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "727514872932",
+    "firebase_url": "https://sizo-eae21-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sizo-eae21",
+    "storage_bucket": "sizo-eae21.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727514872932:android:3d2a9627a33cd98e643371",
+        "android_client_info": {
+          "package_name": "com.example.sizo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727514872932-q77fnf84fpb9g774b0h3979hsieo8s2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sizo",
+            "certificate_hash": "53614d3543bfa1cc6699e26d2d005a85c0783ec0"
+          }
+        },
+        {
+          "client_id": "727514872932-ood9bu47rh0rnfjrnikuroijkp71lhbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk1JAjmFm2BwvDaeeJhG0zLJpdNKu2g5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727514872932-ood9bu47rh0rnfjrnikuroijkp71lhbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
